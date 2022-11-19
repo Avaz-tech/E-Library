@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+html{
+    background-image: url(women-with-books-in-library-dp.jpeg);
+    -webkit-background-size:cover; 
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+}
