@@ -24,7 +24,7 @@
 }
 
 html {
-    background-image: url(white_lib.webp);
+    background-image: url(women-with-books-in-library-dp.jpeg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -44,28 +44,73 @@ header {
     padding: 20px 14%;
     transition: .3s;
 }
-.logo{
- color: var(--text-color);
- font-size: 1.8rem;
- font-weight: 600;
+
+.logo {
+    color: var(--text-color);
+    font-size: 1.8rem;
+    font-weight: 600;
 }
-span{
+
+span {
     color: var(--main-color);
 }
-.navbar{
- display: flex;
+
+.navbar {
+    display: flex;
 }
-.navbar a{
+
+.navbar a {
     color: var(--text-color);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     padding: 10px;
+}
+.navbar a:hover{
+  background-color: var(--main-color);
+  transition: .3s;
+}
+.translate {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Home page section styling */
+section{
+    padding: 120pxm 14%;
+}
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-gap: 1rem ;
 
 }
-.translate{
-  
+/* search bar styling */
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    border-color:var(--bg-color);
+    margin: 7rem 19rem 0;
+    padding: 1rem;
 }
-/* Home page section styling */
-.section {
-  
+.search-title{
+    color:var(--main-color);
+    font-size:1.5rem;
+    font-weight: 600;
+}
+#search{
+    border-color: transparent;
+    padding: .5rem;
+    border-radius: 1.1rem;  
+}
+#search:hover{
+    border-color: var(--bg-color);
+}
+
+/* Styling books container */
+.books-container{
+    
 }
