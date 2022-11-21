@@ -55,7 +55,7 @@ header {
 span {
     color: var(--main-color);
 }
-
+/* Navbar */
 .navbar {
     display: flex;
     margin:0 80px;
@@ -72,6 +72,8 @@ span {
     background-color: var(--main-color);
     transition: .3s;
 }
+
+/* Language bar modifications */
 #google_translate_element{
     margin-top: 16px;
 
@@ -151,13 +153,17 @@ section {
 /* Styling books container */
 .books-container {
     display: grid;
-    grid-template-columns: repeat(7, 10rem);
-    grid-auto-rows: 15rem;
-    margin-top: 0;
+    grid-template-columns: repeat(7, 10.5rem);
+    grid-auto-rows: 23rem;
     grid-gap: 1rem;
     margin: auto;
 }
 
 .book-wrapper {
     background: var(--bg-color);
+    display: grid;
+}
+img{
+    width:168px;
+    background-size: cover;
 }
