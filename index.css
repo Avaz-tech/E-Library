@@ -90,7 +90,7 @@ span {
     font-size: 1.2rem;
     font-weight: 500;
     position:absolute; 
-    top: 28px;
+    top: 1.9rem;
     padding: 10px;
 }
  .translate:hover {
@@ -100,6 +100,11 @@ span {
 .goog-te-combo{
     margin-left:11rem !important;
     margin-right: 0 !important; 
+    padding: .2rem;
+    color:var(--main-color);
+    font-weight: 600;
+    font-family: 'Maven Pro', sans-serif !important;
+    border-radius: 10px;
 }
 
 /* Home page section styling */
