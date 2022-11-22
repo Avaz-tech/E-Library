@@ -24,11 +24,12 @@
 }
 
 html {
-    background-image: url(women-with-books-in-library-dp.jpeg);
+    /* background-image: url(women-with-books-in-library-dp.jpeg); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: #FFFDFA;
 }
 
 /*  Header styling  */
@@ -144,7 +145,7 @@ section {
 }
 
 #search {
-    border-color: transparent;
+    border-color:black];
     padding: .5rem;
     border-radius: 1.1rem;
     background: var(--text-color);
@@ -164,7 +165,7 @@ section {
 }
 
 .book-wrapper {
-     background-color:rgba(235, 241, 230, 0.4);
+     background-color:rgba(197, 227, 195, 0.324);
      display: grid;
 }
 
@@ -179,12 +180,16 @@ img {
     color: var(--main-color);
     margin-top: 3px;
 }
+.book-wrapper h4:hover{
+    color:var(--bg-color);
+}
 .book-wrapper h5{
     color: black;
     margin-top: 3px;
 }
 .book-wrapper p{
-    color: var(--text-color);
+    color: black    
     margin-top: 4px;
     font-size: .9rem;
+    font-weight:600;
 }
