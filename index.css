@@ -97,6 +97,7 @@ span {
     position: absolute;
     top: 1.9rem;
     padding: 10px;
+    margin-left:40px;
 }
 
 .translate:hover {
