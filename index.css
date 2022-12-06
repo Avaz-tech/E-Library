@@ -90,21 +90,6 @@ span {
     color: transparent !important;
 }
 
-.translate {
-    color: var(--text-color);
-    font-size: 1.2rem;
-    font-weight: 500;
-    position: absolute;
-    top: 1.9rem;
-    padding: 10px;
-    margin-left:40px;
-}
-
-.translate:hover {
-    background-color: var(--main-color);
-
-}
-
 .goog-te-combo {
     margin-left: 11rem !important;
     margin-right: 0 !important;
@@ -146,7 +131,7 @@ section {
 }
 
 #search {
-    border-color:black];
+    border-color:black;
     padding: .5rem;
     border-radius: 1.1rem;
     background: var(--text-color);
@@ -189,7 +174,7 @@ img {
     margin-top: 3px;
 }
 .book-wrapper p{
-    color: black    
+    color: blacku;   
     margin-top: 4px;
     font-size: .9rem;
     font-weight:600;
