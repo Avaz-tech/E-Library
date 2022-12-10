@@ -44,7 +44,7 @@ header {
     padding: 20px 1%;
     transition: .3s;
 }
-
+/* Logo styling */
 .logo {
     color: var(--text-color);
     font-size: 1.8rem;
