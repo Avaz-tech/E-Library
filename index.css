@@ -11,7 +11,7 @@
     text-decoration: none;
     list-style: none;
 }
-
+/*  Assingning mostly used  colors and text sizes in oder to easyfy later uses  */
 :root {
     --bg-color: #bbd417;
     --main-color: #1f76cd;
